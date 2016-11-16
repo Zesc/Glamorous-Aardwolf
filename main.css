@@ -64,3 +64,25 @@ input[type="search"] {
   color: #A1C52E;
   font-size: 23px;
 }
+
+.nav-container{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.nav-container nav a{
+  text-decoration: none;
+  color: #8E8F8D;
+  margin: auto 15px;
+}
+
+.nav-container nav a:hover{
+  color: #A1C52E;
+}
+
+.nav-container nav .active{
+  color: #A1C52E;
+  cursor: default;
+}
