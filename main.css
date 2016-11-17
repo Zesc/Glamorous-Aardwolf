@@ -1,1 +1,88 @@
+.header-container{
+	background: url('Books.MD_UI_Assets/books_header_bg.jpg') 100% 100% no-repeat;
+  height: 250px;
+  overflow: hidden;
+}
 
+.img-container{
+  float: left;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.paragraph-container{
+  margin-top: 36px;
+  margin-left: 15px;
+  float: left;
+}
+
+#first-p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  color: white;
+  font-size: 33px;
+  margin: 0;
+}
+
+#second-p{
+  font-family: 'Roboto', sans-serif;
+  color: rgba(38, 36, 35, 0.5);
+  margin: 0;
+}
+
+.search-container{
+  clear: both;
+  padding-left: 0;
+  padding-top: 40px;
+  margin-left: 30%;
+}
+
+input[type="search"] {
+  width: 610px;
+  padding: 10px;
+  color: #9CC12C;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  border-radius: 3px 0 0 3px;
+  border: 0px solid rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.25);
+  float: left;
+}
+
+.icon{
+  float: left;
+  width: 42px;
+  height: 29px;
+  background: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 13px;
+  border-radius: 0 3px 3px 0;
+}
+
+.fa-search {
+  color: #A1C52E;
+  font-size: 23px;
+}
+
+.nav-container{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.nav-container nav a{
+  text-decoration: none;
+  color: #8E8F8D;
+  margin: auto 15px;
+}
+
+.nav-container nav a:hover{
+  color: #A1C52E;
+}
+
+.nav-container nav .active{
+  color: #A1C52E;
+  cursor: default;
+}
