@@ -120,4 +120,21 @@ footer .left-container p strong{
 
 footer .right-container{
   float: right;
+  font-size: 12px;
+  margin-top: 3.5%;
+  margin-right: 15%;
+}
+
+footer .right-container p{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+footer .right-container > :first-child{
+  color: #696E6C;
+}
+
+footer .right-container > :nth-child(2){
+  color: #C5C6C4;
 }
