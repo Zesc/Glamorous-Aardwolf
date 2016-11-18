@@ -1,0 +1,132 @@
+.middle{
+  //border : 5px solid red;
+  background-color : rgba(0,0,0,0.18);
+  height : 550px;
+  
+}
+.box0{
+   //border : 5px solid orange;
+  background-color : white;
+  height : 450px;
+  
+}
+.book2{
+  float : right;
+  
+}
+.author{
+  font-size : 14px;
+}
+.follow{
+  background-color : rgba(0,0,0,0);
+  border : 2px solid olive;
+  color : olive;
+  margin-left : 12px;
+}
+.publish{
+  margin-left : 59px;
+  color : gray;
+}
+.description{
+  display : inline-block;
+  font-size : 18px;
+  border-right : 3px solid rgba(0,0,0,0.2);
+  width : 450px;
+  position : absolute;
+}
+.description1{
+  display : inline-block;
+  font-size : 18px;
+  //border-right : 3px solid rgba(0,0,0,0.2);
+  width : 450px;
+  position : absolute;
+  left : 36%;
+}
+.b1{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 450px;
+  height : 3px;
+  background-color : gray;
+}
+.b2{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid orange;
+  background-color : red;
+  width : 360px;
+  height : 0px;
+  float : left;
+}
+.b3{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 450px;
+  height : 2px;
+  background-color : gray;
+}
+.b4{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid green;
+  background-color : red;
+  width : 337.5px;
+  height : 0px;
+  float : left;
+}
+.b5{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 450px;
+  height : 2px;
+  background-color : gray;
+}
+.b6{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid blue;
+  background-color : red;
+  width : 427.5px;
+  height : 0px;
+  float : left;
+}
+.Rate{
+  border-bottom : 2px solid rgba(0,0,255,0.2);
+  color : blue;
+}
+.arrow{
+  
+  display : inline-block;
+  float : right;
+}
+.Table{
+  border-bottom : 2px solid rgba(0,0,255,0.2);
+  color : blue;
+}
+.arrow1{
+ 
+  display : inline-block;
+  float : right;
+}
+.Search{
+  
+  color : blue;
+}
+.arrow2{
+  
+  display : inline-block;
+  float : right;
+}
+
+.download{
+  height : 60px;
+  width : 15%;
+  color : white;
+  font-size : 20px;
+  background-color : olive;
+  position : absolute;
+  top : 78%;
+}
