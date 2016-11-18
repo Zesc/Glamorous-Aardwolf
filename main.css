@@ -1,4 +1,3 @@
-/*Header code*/
 .header-container{
 	background: url('Books.MD_UI_Assets/books_header_bg.jpg') 100% 100% no-repeat;
   height: 250px;
@@ -86,6 +85,200 @@ input[type="search"] {
 .nav-container nav .active{
   color: #A1C52E;
   cursor: default;
+}
+
+.middle{
+  //border : 5px solid red;
+  background-color : whitesmoke;
+  height : 1550px;
+  display : inline-box;
+  width : 100%;
+}
+.box0{
+   //border : 5px solid orange;
+  background-color : white;
+  height : 450px;
+  width : 80%;
+  position : absolute;
+  left : 7%;
+  margin-top : 8%;
+  border-radius : 8px;
+  
+}
+.book2{
+  float : right;
+  //width : 40%;
+  position : absolute;
+  //left : 50%;
+  right : -12%;
+  //margin-top : 8%;
+  }
+.title{
+  margin-left : 3%;
+}
+.author{
+  font-size : 14px;
+}
+.follow{
+  background-color : rgba(0,0,0,0);
+  border : 2px solid olive;
+  color : olive;
+  margin-left : 12px;
+}
+.publish{
+  margin-left : 59px;
+  color : gray;
+}
+.description{
+  float : left;
+  display : inline-block;
+  font-size : 18px;
+  //border-right : 3px solid rgba(0,0,0,0.2);
+  width : 40%;
+  padding-left : 3%;
+  padding-right : 3%;
+  //position : absolute;
+}
+.description1{
+  float : left;
+  display : inline-block;
+  font-size : 14px;
+  border-left : 3px solid rgba(0,0,0,0.2);
+  width : 34%;
+  margin-left : -2%;
+  padding-left : 2%;
+  ;
+  //position : absolute;
+  //left : 36%;
+}
+.Num1{
+  display : inline-block;
+  float : right;
+  position : absolute;
+bottom : 59%;
+  right : 28%;
+
+}
+.b1{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 75%;
+  height : 6px;
+  background-color : gray;
+}
+.b2{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid darkorange;
+  background-color : red;
+  width : 80%;
+  height : 0px;
+  float : left;
+}
+.Num2{
+  display : inline-block;
+  //float : right;
+  position : absolute;
+bottom : 48%; 
+ right : 28%;
+}
+.b3{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 75%;
+  height : 6px;
+  background-color : gray;
+}
+.b4{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid limegreen;
+  background-color : red;
+  width : 75%;
+  height : 0px;
+  float : left;
+}
+.Num3{
+  display : inline-block;
+  //float : right;
+  position : absolute;
+bottom : 37%;
+  right : 28%;
+}
+.b5{
+  display : inline-block;
+  font-size : 18px;
+  //border : 3px solid rgba(0,0,0,0.2);
+  width : 75%;
+  height : 6px;
+  background-color : gray;
+}
+.b6{
+  display : inline-block;
+  font-size : 18px;
+  border : 3px solid dodgerblue;
+  background-color : red;
+  width : 95%;
+  height : 0px;
+  float : left;
+}
+.Rate{
+  font-size : 18px;
+  border-bottom : 2px solid rgba(0,0,255,0.2);
+  color : blue;
+  width : 75%;
+  //margin-top : 5px;
+}
+.arrow{
+  display : inline-block;
+  position : absolute;
+bottom : 22%;
+right : 28.2%;
+
+}
+.Table{
+  width : 75%;
+  font-size : 18px;
+  border-bottom : 2px solid rgba(0,0,255,0.2);
+  color : blue;
+  margin-top : 20px;
+}
+.arrow1{
+ 
+  display : inline-block;
+  position : absolute;
+bottom : 13%;
+right : 28.2%;
+
+}
+.Search{
+  width : 75%;
+  font-size : 18px;
+  color : blue;
+  margin-top : 15px;
+}
+.arrow2{
+  
+  display : inline-block;
+  //float : right;
+position : absolute;
+bottom : 4.5%;
+right : 28.2%;
+
+}
+
+.download{
+  height : 60px;
+  width : 25%;
+  color : white;
+  font-size : 20px;
+  background-color : olive;
+  position : absolute;
+  top : 108%;
+  left : 0%;
+    border-radius : 7px;
 }
 
 /*Footer code*/
