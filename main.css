@@ -254,8 +254,8 @@ right : 28.2%;
  
   display : inline-block;
   position : absolute;
-bottom : 17%;
-right : 28.2%;
+  bottom : 17%;
+  right : 28.2%;
 
 }
 .Search{
@@ -283,7 +283,7 @@ right : 28.2%;
   background-color : white;
   position : absolute;
   top : 108%;
-left : 0%;
+  left : 0%;
   //float : left;
     border-radius : 7px;
 }
@@ -350,4 +350,8 @@ footer .right-container > :first-child{
 
 footer .right-container > :nth-child(2){
   color: #C5C6C4;
+}
+
+a{
+  text-decoration: none;
 }
