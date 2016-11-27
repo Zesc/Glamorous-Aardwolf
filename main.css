@@ -88,7 +88,7 @@ input[type="search"] {
 }
 
 .middle{
-  border : 5px solid red;
+  //border : 5px solid red;
   background-color : whitesmoke;
   height : 2650px;
   display : inline-box;
@@ -116,6 +116,71 @@ input[type="search"] {
   right : -12%;
   //margin-top : 8%;
   }
+
+  .book1{
+  float : right;
+  width : 63.5%;
+  height : 442px;
+  background-color : rgba(255,255,255,1);
+  position : absolute;
+  left : 44%;
+  //right : 10%;
+  //margin-top : 8%;
+border : 5px solid skyblue;  
+}
+
+  .tabs{
+  
+  text-align : center;
+  //background-color : red;
+  height : 20px;
+  //float : left;
+  //display : inline-block;
+  font-size : 16px;
+  //border: 1px solid skyblue;
+  width : 50%;
+  //margin: 1%;
+  padding : 1%;
+  position : absolute;
+  left : 83.1%;
+  top : 45%;
+-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.gray{
+  float : left;
+  width : 44%;
+  height : 450px;
+  background-color : rgba(125,125,125,0.8);
+  position : absolute;
+  //left : 50%;
+  //right : 10%;
+  //margin-top : 8%;
+//border : 2px solid red;  
+}
+.x{
+  //border : 2px solid red;
+width : 10%;
+  display : inline-block;
+}
+.bSearch{
+  background-color : skyblue;
+width : 25%;
+  display : inline-block;
+  color : blue;
+}
+.bTable{
+  color : skyblue;
+width : 25%;
+  display : inline-block;
+}
+.bRate{
+  color : skyblue;
+  width : 25%;
+  display : inline-block;
+}
 
   
 .title{
@@ -274,6 +339,69 @@ right : 28.2%;
 
 }
 
+.search1{
+  //background-color : red;
+  height : 20px;
+  //float : left;
+  //display : inline-block;
+  font-size : 20px;
+  border: 1px solid skyblue;
+  width : 54%;
+  //margin-left : -2%;
+  padding : 1%;
+  position : absolute;
+  left : 48%;
+  top : 4%;
+}
+.space{
+  margin-bottom : -1.5%;
+}
+.page{
+  float : right;
+}
+.List{
+  //background-color : red;
+  height : 270px;
+  //float : left;
+  //display : inline-block;
+  font-size : 18px;
+  //border: 1px solid skyblue;
+  width : 54%;
+  //margin-left : -2%;
+  padding : 1%;
+  position : absolute;
+  left : 48%;
+  top : 16%;
+}
+.vslider{
+  //background-color : red;
+  height : 290px;
+  //float : left;
+  display : inline-block;
+  font-size : 20px;
+  border: 1px solid gray;
+  //width : 0%;
+  //margin-left : -2%;
+  //padding : 1%;
+  position : absolute;
+  right : -5.8%;
+  top : 24%;
+}
+.innerSlide{
+  //background-color : red;
+  height : 110px;
+  //float : left;
+  display : inline-block;
+  font-size : 20px;
+  border: 3px solid gray;
+  //width : 0%;
+  //margin-left : -2%;
+  //padding : 1%;
+  position : absolute;
+  right : -6%;
+  top : 24%;
+}
+
 .gumroad{
   //border : 2px solid red;
   height : 40px;
@@ -317,6 +445,17 @@ left : 23%;
   left : 46%;
   //float : left;
     border-radius : 7px;
+}
+
+.bookmark{
+  
+  height : 40px;
+  width : 20%;
+  
+  position : absolute;
+  top : 108%;
+  left : 100%;
+  //float : left;
 }
 
 .download{
