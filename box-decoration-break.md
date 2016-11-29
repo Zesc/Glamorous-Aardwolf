@@ -57,9 +57,11 @@ margin-left: 10px;-webkit-box-decoration-break: clone;
 ```
 This is how the above text will display before you add box-decoration-break :clone;
 
-
+![](Books.MD_UI_Assets/clone1.png)
 
 After you add box-decoration-break : clone;
+![](Books.MD_UI_Assets/clone.png)
+
 ```
 <style>
 .text{
