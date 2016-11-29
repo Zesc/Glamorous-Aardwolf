@@ -22,10 +22,10 @@ In the example above, font-size is a property that determines the height of text
 
 
 In this example we will use small in order to indicate copyright information for a text.
-```
+
 <p> memoryCraft - The world's first online School for Ancient Memory Training</p>
 <p><small>Copyright 1981-2016 by Anthony Osei-Tutu</small></p>
-```
+
 
 ## Example 2
 
