@@ -1,3 +1,8 @@
+body{
+  font-family: Roboto;
+}
+
+
 .header-container{
   background: url('Books.MD_UI_Assets/books_header_bg.jpg') 100% 100% no-repeat;
   height: 250px;
@@ -88,15 +93,12 @@ input[type="search"] {
 }
 
 .middle{
-  //border : 5px solid red;
-  background-color : whitesmoke;
+ background-color : whitesmoke;
   height : 2650px;
   display : inline-box;
   width : 100%;
-  //position : absolute;
 }
 .box{
-   //border : 5px solid orange;
   background-color : white;
   height : 450px;
   width : 80%;
@@ -110,11 +112,8 @@ input[type="search"] {
 
 .book{
   float : right;
-  //width : 40%;
   position : absolute;
-  //left : 50%;
   right : -12%;
-  //margin-top : 8%;
   }
 
   .book1{
@@ -124,22 +123,15 @@ input[type="search"] {
   background-color : rgba(255,255,255,1);
   position : absolute;
   left : 44%;
-  //right : 10%;
-  //margin-top : 8%;
 border : 5px solid skyblue;  
 }
 
   .tabs{
   
   text-align : center;
-  //background-color : red;
   height : 20px;
-  //float : left;
-  //display : inline-block;
   font-size : 16px;
-  //border: 1px solid skyblue;
   width : 50%;
-  //margin: 1%;
   padding : 1%;
   position : absolute;
   left : 83.1%;
@@ -155,13 +147,8 @@ border : 5px solid skyblue;
   height : 450px;
   background-color : rgba(125,125,125,0.8);
   position : absolute;
-  //left : 50%;
-  //right : 10%;
-  //margin-top : 8%;
-//border : 2px solid red;  
 }
 .x{
-  //border : 2px solid red;
 width : 10%;
   display : inline-block;
 }
@@ -203,12 +190,11 @@ width : 25%;
   float : left;
   display : inline-block;
   font-size : 18px;
-  //border-right : 3px solid rgba(0,0,0,0.2);
   width : 40%;
   padding-left : 3%;
   padding-right : 3%;
-  //position : absolute;
 }
+
 .description1{
   float : left;
   display : inline-block;
@@ -218,9 +204,8 @@ width : 25%;
   margin-left : -2%;
   padding-left : 2%;
   ;
-  //position : absolute;
-  //left : 36%;
 }
+
 .Num1{
   display : inline-block;
   float : right;
@@ -232,7 +217,6 @@ bottom : 63%;
 .b1{
   display : inline-block;
   font-size : 18px;
-  //border : 3px solid rgba(0,0,0,0.2);
   width : 75%;
   height : 6px;
   background-color : gray;
@@ -248,7 +232,6 @@ bottom : 63%;
 }
 .Num2{
   display : inline-block;
-  //float : right;
   position : absolute;
 bottom : 52%; 
  right : 28%;
@@ -256,7 +239,6 @@ bottom : 52%;
 .b3{
   display : inline-block;
   font-size : 18px;
-  //border : 3px solid rgba(0,0,0,0.2);
   width : 75%;
   height : 6px;
   background-color : gray;
@@ -272,7 +254,6 @@ bottom : 52%;
 }
 .Num3{
   display : inline-block;
-  //float : right;
   position : absolute;
 bottom : 41%;
   right : 28%;
@@ -280,7 +261,6 @@ bottom : 41%;
 .b5{
   display : inline-block;
   font-size : 18px;
-  //border : 3px solid rgba(0,0,0,0.2);
   width : 75%;
   height : 6px;
   background-color : gray;
@@ -299,8 +279,8 @@ bottom : 41%;
   border-bottom : 2px solid rgba(0,0,255,0.2);
   color : blue;
   width : 75%;
-  //margin-top : 5px;
 }
+
 .arrow{
   display : inline-block;
   position : absolute;
@@ -315,8 +295,8 @@ right : 28.2%;
   color : blue;
   margin-top : 20px;
 }
+
 .arrow1{
- 
   display : inline-block;
   position : absolute;
 bottom : 17%;
@@ -330,9 +310,7 @@ right : 28.2%;
   margin-top : 15px;
 }
 .arrow2{
-  
-  display : inline-block;
-  //float : right;
+ display : inline-block;
 position : absolute;
 bottom : 8.5%;
 right : 28.2%;
@@ -340,14 +318,10 @@ right : 28.2%;
 }
 
 .search1{
-  //background-color : red;
   height : 20px;
-  //float : left;
-  //display : inline-block;
   font-size : 20px;
   border: 1px solid skyblue;
   width : 54%;
-  //margin-left : -2%;
   padding : 1%;
   position : absolute;
   left : 48%;
@@ -360,90 +334,66 @@ right : 28.2%;
   float : right;
 }
 .List{
-  //background-color : red;
   height : 270px;
-  //float : left;
-  //display : inline-block;
   font-size : 18px;
-  //border: 1px solid skyblue;
   width : 54%;
-  //margin-left : -2%;
   padding : 1%;
   position : absolute;
   left : 48%;
   top : 16%;
 }
 .vslider{
-  //background-color : red;
   height : 290px;
-  //float : left;
   display : inline-block;
   font-size : 20px;
   border: 1px solid gray;
-  //width : 0%;
-  //margin-left : -2%;
-  //padding : 1%;
   position : absolute;
   right : -5.8%;
   top : 24%;
 }
 .innerSlide{
-  //background-color : red;
   height : 110px;
-  //float : left;
   display : inline-block;
   font-size : 20px;
   border: 3px solid gray;
-  //width : 0%;
-  //margin-left : -2%;
-  //padding : 1%;
   position : absolute;
   right : -6%;
   top : 24%;
 }
 
 .gumroad{
-  //border : 2px solid red;
   height : 40px;
   width : 20%;
   color : limeGreen;
-  //font-size : 20px;
   background-color : white;
   position : absolute;
   top : 108%;
-left : 0%;
-  //float : left;
+  left : 0%;
     border-radius : 7px;
     font-weight: 800px;
 }
 
 .amazon{
-  //border : 2px solid red;
   height : 40px;
   width : 20%;
   color : limeGreen;
-  //font-size : 20px;
   background-color : white;
   position : absolute;
   top : 108%;
-left : 23%;
-  //float : left;
+  left : 23%;
     border-radius : 7px;
     
 }
 
 .manning{
   font-weight: 800px;
-  //border : 2px solid red;
   height : 40px;
   width : 20%;
   color : limeGreen;
-  //font-size : 20px;
   background-color : white;
   position : absolute;
   top : 108%;
   left : 46%;
-  //float : left;
     border-radius : 7px;
 }
 
@@ -451,23 +401,19 @@ left : 23%;
   
   height : 40px;
   width : 20%;
-  
   position : absolute;
   top : 108%;
   left : 100%;
-  //float : left;
 }
 
 .download{
   height : 60px;
-  //width : 25%;
   color : white;
   font-size : 20px;
   background-color : limegreen;
   position : absolute;
   top : 108%;
-left : 0%;
-  //float : left;
+  left : 0%;
     border-radius : 7px;
 }
 
