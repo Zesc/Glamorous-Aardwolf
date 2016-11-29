@@ -2,53 +2,44 @@
 
 *JavaScript method*
 
-Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
-
+Array is a global object that holds a group of values in a list format. The prototype aspect of the array, is used to add methods to the particular Array. The .shift is a method that removes the first element of the selected array and returns it as a value. 
 
 ## Syntax
 
-Introduction to the syntax/usage. A example of CSS syntax is below:
+The syntax of this method is in two parts. The first part uses the .prototype in order to add the .shift() method to an array that is corrected:
 
 ```
-        background: <color | url(path) | others.. | none>;
+        Array.prototype.shift(); //is the global aspect
+        arr.shift(); // the method applied to a particular array
 ```
 
-### Values
+### arr.
 
-This is a CSS example, so each value would need it's own sub-section below.
+This portion of the command, tells the browser you will be accessing an Array.
 
-#### Color
+#### .shift()
 
-An explanation of the "color" value belongs here.
-
-#### url(path)
-
-An explanation of using `url(path)` as a value to link to an image belongs here.
+This is a built in method/function that commands the browser to select the first element of the array and return its value.The array arr inherited it since it was created using the Array constructor.
 
 ## Example 1
 
-Write a introduction to the example, sufficient to explain what the example is showing.
+Here's a simple example of the use of Array.prototype.shift()
 
 ```
-        background: green;
+        var arr = ["A",2,"C3",4,5];
+        arr.shift()// Will return the letter A
 ```
 
 ## Example 2
 
-Write a introduction to the example, sufficient to explain what the example is showing.
+This method can also be used if you wanted to print out the whole array minus the first element as in below :
 
 ```
-        background: url('path_to_image.png');
-```
-
-## Example 3 - Complex
-
-Write a introduction to the example, sufficient to explain what the example is showing.
-
-```
-        background: none 50% 25% auto contain fixed;
+       var arr = ["A",2,"C3",4,5];
+       arr.shift();
+        console.log(arr);//Will print out array minus the letter "A" 
 ```
 
 ## Special Notes
 
-Add information that you found that seemed lesser known. Common bugs, obscure bugs, important distinctions, all belong in this section.
+This method is compatible with all known browsers both desktop and mobile.
