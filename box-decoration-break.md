@@ -60,7 +60,7 @@ This is how the above text will display before you add box-decoration-break :clo
 ![](Books.MD_UI_Assets/clone1.png)
 
 After you add box-decoration-break : clone;
-![](Books.MD_UI_Assets/clone.png)
+![](Books.MD_UI_Assets/clone2.png)
 
 ```
 <style>
