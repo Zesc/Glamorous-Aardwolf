@@ -30,13 +30,13 @@ slice | clone
 #### Slice
 
 
-An explanation of the "color" value belongs here.
+The slice value is the default value for box-decoration-break. If you add it, then it will tell the browser to treat the element like a fragment. If you don't add it, the browser will do this automatically.
 
 
 #### Clone
 
 
-When the clone value is added to box-decoration-break, the margin, border, and padding is applied to each fragment as if it was an isolated complete element instead of a fragment. For example if the element 
+When the clone value is added to box-decoration-break, the margin, border, and padding is applied to each fragment as if it was an isolated complete element instead of a fragment. For example if the element had a border applied, in its fragmented state the border property may only be on the top or bottom of each element, and not left or right. The clone value will ensure each fragment is treated like a separate element, and have a full border
 
 
 ## Example 1
@@ -84,23 +84,63 @@ In this example we will use a bit more complex situation and show the use of the
 Let’s stay you begin with an element that looks like this : 
 
 
+Css
 ```
-       .text{
+.text{
 border : 2px solid red;
 border-radius : 13px;
-margin-left: 10px;-webkit-box-decoration-break: clone;
+margin-left: 10px;
+-webkit-box-decoration-break: slice;
 display : block;
-Width 30%;
+Width : 30%;
 }
-</style>
+
+.column{
+columns : 2;
+line-height : 100px;
+}
 ```
 
+HTML 
+```
+<div class="column">
+<span class="text"><h1>This is <br>a Heading</h1>
+<p>This is a paragraph.</p></div></span>
+}
+```
+![](Books.MD_UI_Assets/column.png)
 
+If you were to change the -webkit-box-decoration-break property to clone
+Css
+```
+.text{
+border : 2px solid red;
+border-radius : 13px;
+margin-left: 10px;
+-webkit-box-decoration-break: clone;
+display : block;
+Width : 30%;
+}
 
+.column{
+columns : 2;
+line-height : 100px;
+}
+```
+
+HTML 
+```
+<div class="column">
+<span class="text"><h1>This is <br>a Heading</h1>
+<p>This is a paragraph.</p></span></div>
+}
+```
+
+Do to limittations about which browser fully support box-decoration-breaks, there is not graphic to show how it would look. In theory similar to example 1, a bottom and top border would be added to the two elements.
 
 ## Special Notes
 
 
-This property is not yet available in all browsers. Currently it is supported by Chrome, Firefox, and Opera. This means you will have to include multiple properties in your rule-set for it to work with different browsers.
+This property is not yet available in all browsers. Currently it is supported by Chrome, Firefox, and Opera. This means you will have to include multiple properties with the prefix of "-webkit-" in your rule-set for it to work with different browsers.
 
 
