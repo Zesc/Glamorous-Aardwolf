@@ -61,8 +61,6 @@ This is how the above text will display before you add box-decoration-break :clo
 
 After you add box-decoration-break : clone;
 
-![](Books.MD_UI_Assets/clone1.png)
-
 ```
 <style>
 .text{
@@ -73,6 +71,8 @@ margin-left: 10px;-webkit-box-decoration-break: clone;
 </style>
 <body> <span class=”text”>Hello<br>what is your<br>name?</span></body>
 ```
+
+![](Books.MD_UI_Assets/clone1.png)
 
 
 
