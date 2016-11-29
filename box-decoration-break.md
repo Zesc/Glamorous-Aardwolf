@@ -84,7 +84,6 @@ In this example we will use a bit more complex situation and show the use of the
 Let’s stay you begin with an element that looks like this : 
 
 
-
 Css
 ```
 .text{
@@ -109,13 +108,39 @@ HTML
 <p>This is a paragraph.</p></div></span>
 }
 ```
+![](Books.MD_UI_Assets/column.png)
 
+If you were to change the -webkit-box-decoration-break property to clone
+Css
+```
+.text{
+border : 2px solid red;
+border-radius : 13px;
+margin-left: 10px;
+-webkit-box-decoration-break: clone;
+display : block;
+Width : 30%;
+}
 
+.column{
+columns : 2;
+line-height : 100px;
+}
+```
 
+HTML 
+```
+<div class="column">
+<span class="text"><h1>This is <br>a Heading</h1>
+<p>This is a paragraph.</p></span></div>
+}
+```
+
+Do to limittations about which browser fully support box-decoration-breaks, there is not graphic to show how it would look. In theory similar to example 1, a bottom and top border would be added to the two elements.
 
 ## Special Notes
 
 
-This property is not yet available in all browsers. Currently it is supported by Chrome, Firefox, and Opera. This means you will have to include multiple properties in your rule-set for it to work with different browsers.
+This property is not yet available in all browsers. Currently it is supported by Chrome, Firefox, and Opera. This means you will have to include multiple properties with the prefix of "-webkit-" in your rule-set for it to work with different browsers.
 
 
