@@ -1,4 +1,4 @@
-#<small>
+# Small
 
 
 *Html tag for decreasing size of text.*
@@ -10,11 +10,11 @@ The <small>  element tag is a special tag used to style text for specific situat
 ## Syntax
 The syntax for this tag is simple, its : <small></small> and is used right inside of the html document.
 You can also use it in CSS to shrink the text smaller than usual. 
-...
+```
 small {
 	font-size : 8px;
 }
-...
+```
 In the example above, font-size is a property that determines the height of text, and setting it to 8px, tells the browser to make the text surrounded by the small tag 8 pixels high.
 
 
@@ -22,9 +22,10 @@ In the example above, font-size is a property that determines the height of text
 
 
 In this example we will use small in order to indicate copyright information for a text.
+```
 <p> memoryCraft - The world's first online School for Ancient Memory Training</p>
-<p>Copyright 1981-2016 by Anthony Osei-Tutu
-
+<p><small>Copyright 1981-2016 by Anthony Osei-Tutu</small></p>
+```
 
 ## Example 2
 
