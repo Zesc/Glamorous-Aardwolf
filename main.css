@@ -299,8 +299,8 @@ right : 28.2%;
 .arrow1{
   display : inline-block;
   position : absolute;
-bottom : 17%;
-right : 28.2%;
+  bottom : 17%;
+  right : 28.2%;
 
 }
 .Search{
@@ -380,7 +380,12 @@ right : 28.2%;
   background-color : white;
   position : absolute;
   top : 108%;
+<<<<<<< HEAD
+  left : 0%;
+  //float : left;
+=======
   left : 23%;
+>>>>>>> 3ba5a590a45f751121ff935fbabf5f7e0db73a5e
     border-radius : 7px;
     
 }
@@ -473,3 +478,10 @@ footer .right-container > :first-child{
 footer .right-container > :nth-child(2){
   color: #C5C6C4;
 }
+<<<<<<< HEAD
+
+a{
+  text-decoration: none;
+}
+=======
+>>>>>>> 3ba5a590a45f751121ff935fbabf5f7e0db73a5e
