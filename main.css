@@ -1,5 +1,7 @@
 body{
   font-family: Roboto;
+  margin: 0;
+  background: whitesmoke;
 }
 
 
@@ -72,6 +74,7 @@ input[type="search"] {
 
 .nav-container{
   font-family: 'Roboto', sans-serif;
+  background: white;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -95,39 +98,38 @@ input[type="search"] {
 .middle{
  background-color : whitesmoke;
   height : 2650px;
-  display : inline-box;
   width : 100%;
+  margin-top: 5%;
 }
 .box{
   background-color : white;
   height : 450px;
   width : 80%;
   position : relative;
-  left : 7%;
-  margin-top : 5%;
-  border-radius : 8px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top : 3%;
+  border-radius : 5px;
+  overflow: hidden;
 }
 
+.book img{
+  float: right;
+  width: 280px;
+  height: 450px;
+}
 
-
-.book{
-  float : right;
-  position : absolute;
-  right : -12%;
-  }
-
-  .book1{
+.book1{
   float : right;
   width : 63.5%;
   height : 442px;
   background-color : rgba(255,255,255,1);
   position : absolute;
   left : 44%;
-border : 5px solid skyblue;  
+  border : 5px solid skyblue;
 }
 
-  .tabs{
-  
+.tabs{
   text-align : center;
   height : 20px;
   font-size : 16px;
@@ -173,6 +175,14 @@ width : 25%;
 .title{
   margin-left : 3%;
 }
+
+.title > h1{
+  margin: 0;
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
 .author{
   font-size : 14px;
 }
@@ -188,133 +198,143 @@ width : 25%;
 }
 .description{
   float : left;
-  display : inline-block;
-  font-size : 18px;
-  width : 40%;
+  font-size : 16px;
+  font-weight: 300;
+  width : 34%;
   padding-left : 3%;
-  padding-right : 3%;
+  padding-right : 2%;
+  font-family: 'Roboto', sans-serif;
+  color: #3A3939;
 }
 
 .description1{
   float : left;
-  display : inline-block;
   font-size : 14px;
   border-left : 3px solid rgba(0,0,0,0.2);
-  width : 34%;
-  margin-left : -2%;
-  padding-left : 2%;
-  ;
+  width : 30%;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+}
+
+.description1 > span{
+  padding-left: 7px;
+}
+
+.fs-1, .fs-2, .fs-3, .Num1, .Num2, .Num3{
+  margin: 0;
+}
+
+.b1, .b3, .b5{
+  clear: both;
+}
+
+.fs-1{
+  color: darkorange;
+  float: left;
 }
 
 .Num1{
-  display : inline-block;
-  float : right;
-  position : absolute;
-bottom : 63%;
-  right : 28%;
+  float : left;
+  color: darkorange;
+  position: relative;
+  left: 218px;
+}
 
-}
 .b1{
-  display : inline-block;
-  font-size : 18px;
-  width : 75%;
-  height : 6px;
-  background-color : gray;
+  width: 100%;
+  height: 6px;
+  background-color : #F5F5F5;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
+
 .b2{
-  display : inline-block;
-  font-size : 18px;
-  border : 3px solid darkorange;
-  background-color : red;
-  width : 80%;
-  height : 0px;
-  float : left;
+  border: 3px solid rgba(255, 140, 0, 0.76);
+  background-color: #ff8c00;
+  width: 80%;
+  float: left;
 }
+
+.fs-2{
+  color:limegreen;
+  float: left
+}
+
 .Num2{
-  display : inline-block;
-  position : absolute;
-bottom : 52%; 
- right : 28%;
+  float: left;
+  position: relative;
+  left: 213px;
+  color: limegreen;
 }
+
 .b3{
-  display : inline-block;
-  font-size : 18px;
-  width : 75%;
-  height : 6px;
-  background-color : gray;
+  width: 100%;
+  height: 6px;
+  background-color: #F5F5F5;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
+
 .b4{
-  display : inline-block;
-  font-size : 18px;
-  border : 3px solid limegreen;
-  background-color : red;
-  width : 75%;
-  height : 0px;
-  float : left;
+  border: 3px solid rgb(50, 205, 50);
+  width: 75%;
+  float: left;
 }
+
+.fs-3{
+  color:#58B3D1;
+  float: left;
+}
+
 .Num3{
-  display : inline-block;
-  position : absolute;
-bottom : 41%;
-  right : 28%;
+  float: left;
+  position: relative;
+  left: 199px;
+  color: #58b3d1;
 }
 .b5{
-  display : inline-block;
-  font-size : 18px;
-  width : 75%;
+  width : 100%;
   height : 6px;
-  background-color : gray;
+  background-color : #F5F5F5;
+  margin-top: 25px;
+  margin-bottom: 20px;
+
 }
 .b6{
-  display : inline-block;
-  font-size : 18px;
-  border : 3px solid dodgerblue;
-  background-color : red;
+  border : 3px solid #58B3D1;
   width : 95%;
-  height : 0px;
-  float : left;
 }
 .Rate{
+  float: left;
   font-size : 18px;
-  border-bottom : 2px solid rgba(0,0,255,0.2);
-  color : blue;
-  width : 75%;
+
+  color : rgba(0, 78, 209, 0.76);
 }
 
 .arrow{
-  display : inline-block;
-  position : absolute;
-bottom : 26%;
-right : 28.2%;
-
+  float: left;
 }
+
 .Table{
-  width : 75%;
+  float: left;
   font-size : 18px;
-  border-bottom : 2px solid rgba(0,0,255,0.2);
-  color : blue;
-  margin-top : 20px;
+  clear: left;
+  color : rgba(0, 78, 209, 0.76);
 }
 
 .arrow1{
-  display : inline-block;
-  position : absolute;
-  bottom : 17%;
-  right : 28.2%;
-
+  float: left;
 }
+
 .Search{
-  width : 75%;
+  float: left;
+  clear: left;
   font-size : 18px;
-  color : blue;
-  margin-top : 15px;
+  color : rgba(0, 78, 209, 0.76);
 }
 .arrow2{
- display : inline-block;
-position : absolute;
-bottom : 8.5%;
-right : 28.2%;
-
+  float: left;
 }
 
 .search1{
@@ -369,8 +389,8 @@ right : 28.2%;
   position : absolute;
   top : 108%;
   left : 0%;
-    border-radius : 7px;
-    font-weight: 800px;
+  border-radius : 7px;
+  font-weight: 800;
 }
 
 .amazon{
@@ -380,18 +400,14 @@ right : 28.2%;
   background-color : white;
   position : absolute;
   top : 108%;
-<<<<<<< HEAD
   left : 0%;
   //float : left;
-=======
   left : 23%;
->>>>>>> 3ba5a590a45f751121ff935fbabf5f7e0db73a5e
-    border-radius : 7px;
-    
+  border-radius : 7px;
 }
 
 .manning{
-  font-weight: 800px;
+  font-weight: 800;
   height : 40px;
   width : 20%;
   color : limeGreen;
@@ -478,10 +494,7 @@ footer .right-container > :first-child{
 footer .right-container > :nth-child(2){
   color: #C5C6C4;
 }
-<<<<<<< HEAD
 
 a{
   text-decoration: none;
 }
-=======
->>>>>>> 3ba5a590a45f751121ff935fbabf5f7e0db73a5e
